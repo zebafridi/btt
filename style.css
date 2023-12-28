@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    
+        background-image: url(frim.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 600px;
+        width: 40%;
+        
+}
+
+ .mainHeading{
+    font-weight: bold;
+   display:block;
+    text-align: center;
+    color: rgb(62, 60, 60);
+    margin: 80px auto 40px;
+   }
+#from{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+#to{
+    margin-top: 20px;
+    margin-bottom: 3px;
+}
+input{
+    display: block;
+    margin: 5px auto;
+    width: 35%;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 10px;
+ 
+}
+
+#brt_button{
+    padding: 6px;
+    font-weight: bold;
+  display: block;
+  margin:auto;
+border-radius: 20px;
+margin-top: 30px;
+width: 25%;
+background-color: rgb(204, 198, 198);
+
+
+}
+#brt_para{
+   width: 25%;
+    display:block;
+     text-align: center;
+     color: red;
+     margin:auto;
+     margin-top: 30px;
+
+}
+@media screen and (max-width: 767px) {
+
+    
+.container{
+    
+    background-image: url(frim.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    
+}
+
+.mainHeading{
+font-weight: lighter;
+
+display:block;
+text-align: center;
+color: rgb(62, 60, 60);
+margin: auto;
+margin-top: 55px;
+margin-bottom: 10px;
+}
+#from{
+margin-top: 30px;
+margin-bottom: 10px;
+}
+#to{
+margin-top: 20px;
+margin-bottom: 3px;
+}
+input{
+display: block;
+margin: 5px auto;
+width: 35%;
+border-radius: 20px;
+font-weight: bold;
+padding: 10px;
+
+}
+
+#brt_button{
+padding: 6px;
+font-weight: bold;
+display: block;
+margin:auto;
+border-radius: 20px;
+margin-top: 10px;
+width: 25%;
+background-color: rgb(204, 198, 198);
+
+
+}
+#brt_para{
+width: 25%;
+display:block;
+ text-align: center;
+ color: red;
+ margin:auto;
+ margin-top: 20px;
+
+}
+    
+}
